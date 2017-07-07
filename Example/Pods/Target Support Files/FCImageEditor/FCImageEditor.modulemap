@@ -1,0 +1,6 @@
+framework module FCImageEditor {
+  umbrella header "FCImageEditor-umbrella.h"
+
+  export *
+  module * { export * }
+}
