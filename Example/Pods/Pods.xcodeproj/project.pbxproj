@@ -7,37 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004063B36405E9D109404E256E58144D /* FCKeyboardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68729C3514AF87765AAB1714ADABAC4C /* FCKeyboardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
+		0D3ABF55A652DC563CE5EB9A72BF3C42 /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDD7AE3D26D80403DFA054E2552562 /* TOCropViewControllerLocalizable.strings */; };
+		0DB1BD60D82DB0CE34A689A13E2585A4 /* FCImageEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02818CD053A8EC893782BF29609946B8 /* FCImageEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10D58A860C8332D462E0708628B55567 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D9C232AA6D0DFD6ECBC0FA1AFADF36 /* TOCroppedImageAttributes.m */; };
+		11D8EF5F18A3CDDF129C744B306184E7 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D97EF5DA6C586D7C419AF0C8979817 /* TOCropViewControllerTransitioning.m */; };
+		144E00AEC81D593845B54FB3A2310963 /* UIImage+FCRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CD0097F8FDCF45918C46C75EA76A29 /* UIImage+FCRotate.m */; };
+		15B98D53518F971663F3FDB34E456193 /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 01121812E6797352ED4C13B4CAC40108 /* TOCropViewControllerLocalizable.strings */; };
+		19F417C200DB77B1A34D67B3AA161355 /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = F8EC6A3584295F99C24BFFE45B69276B /* TOCropViewControllerLocalizable.strings */; };
 		1A0118D59A10D45B0B280FFC2CC0ED51 /* Pods-FCImageEditor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C46C3035CBC17C937459C74DBBE6E6 /* Pods-FCImageEditor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		237FA4E481C7316A0E4646CE8E06F4D8 /* FCImageEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 618F452445F375A19F2A0EF416B749A9 /* FCImageEditor-dummy.m */; };
+		1C695FE7528D6D74242F3AEA9D47D3D1 /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3B726C4335194E2F7B6A3B3FA226D5 /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F65F3673DE97802F7F27FDED6337D8F /* FCTextToolView.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D4869F1DBA9C63848FDBE21971558A /* FCTextToolView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		227DD10299E0EA5A96DF4F7DEDAB54E2 /* FCFontEditViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7087E9F467DFB1EE88B03D1ACAC9DB2E /* FCFontEditViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23C54DF6D20B11C066FCB037BA83C72F /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = F1A2DD7A3DE8C94D370F2E84651A5A2B /* TOCropViewControllerLocalizable.strings */; };
+		2651B363D30B974C0641EFE6929FE656 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC74624637ABEFF2384108D874C6361 /* TOCropOverlayView.m */; };
+		26BE73713BDD8E0AD93CD214B9EEFC12 /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = B8FCFFDA4088C7FF7204349858E886F7 /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2705D455054789AA5CF2CD9A3B13206C /* FCFontEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E00D8ED1D826792D2DA9121047B98E /* FCFontEditViewController.m */; };
+		2F23778BE51C2FEED7074C5E4B73570C /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 64A3DEB190B8A7AF8C0AA6FA974697B5 /* TOCropViewControllerLocalizable.strings */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		311867E595665BDFEF1783996AD2FC3C /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = CE777C87DDED03A3CFE049806F2DE199 /* TOCropViewControllerLocalizable.strings */; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
+		384B08F2D1F7664DC84F665D33DA7AE4 /* FCFontStyleView.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E6179D19CD48CFF08B9AB4FB7A671B /* FCFontStyleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4304B0384584A27DC5EF1725EAC44729 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B931DDCEB0575C3BE605FB68F0E7D75B /* TOActivityCroppedImageProvider.m */; };
+		4358B8D82DEAF43BDB38E8D0B5981F5E /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 5AFCCC5DA158F5C69A7D6203CAF93142 /* TOCropViewControllerLocalizable.strings */; };
 		482149F12215AFFD5A42A23ABD849A0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		4A1BA19BFD518D8B7A4581762442A8AB /* FCFontBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D66D7F11D2F7799B51EACE85A60781 /* FCFontBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
+		55A3BBF596CF06EE49F509FFCB79C402 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		563F1DF80C5BB0C18A85916809D23FA4 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7960B71A12E7F66DB5EE164CF957AEE0 /* TOCropViewController.m */; };
+		5AB4F618DC7695D3883647F10571A90A /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F293071728A936C8C23BE8DD6E9BC /* UIImage+CropRotate.m */; };
+		5D1ADF7BE5648B5B49839F497374D4B3 /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 45C859F58CE5A741E70253C1816E4028 /* TOCropViewControllerLocalizable.strings */; };
+		64B1A27BCFA5162BBBEF33D8D8EC232A /* FCEditTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45FCF689B58A8ADBD0FDCFA9CDE161B0 /* FCEditTextViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6825F1165DA089738768C1038CDD2A43 /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = B42921972A304B5CBCF5EE7FC9D79035 /* TOCropViewControllerLocalizable.strings */; };
+		68DCFC0C7D3E88D2476DF52265084A60 /* FCFontBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 95400E7BBEDCAB54B1F6FA3EB8089749 /* FCFontBar.m */; };
+		69ADBE393C86736B3504E0B4230CE978 /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 49CDF92358EDCFDF4E6615791A766CE5 /* TOCropViewControllerLocalizable.strings */; };
+		69AE270484BC9B089C69D8B59D1DD849 /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CCDAA41C21C7DCD9ED31DB78002A107 /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		6E26EEE13F641F90FA3C4189C97683DC /* FCImageEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02818CD053A8EC893782BF29609946B8 /* FCImageEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BC86761E9E376DE85C59E2757D74974 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDF977A2888649CE6009C296606ECE6 /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F6AADB90AC803FA9F87758C486CD0AD /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5928CB4F3AB2F505E2EE3D0B3DDD5A9D /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72770C3BC3D449A77AA906A459B022DA /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = A227B4942A3D25119BB701A3A5559938 /* TOCropViewControllerLocalizable.strings */; };
+		754E4DACDD258994811573B477043F7D /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4D7FC06FD910226C49402F6CD579D6 /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		775803EC87235B6474E9B9BA3756C32D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		77D4AC77B4735AA9584331F4D953E24D /* Pods-FCImageEditor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE335FE1A567F40076CE931A5A6035A /* Pods-FCImageEditor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AC8CF701E4A9687BAEDCF7AED711159 /* FCImageEditorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 251407C842846AC02121404D92A8C4E2 /* FCImageEditorViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
+		7ED91E259305BC62DF7D42531FE2B383 /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEBBA8601950C36F02ECABD101013A /* TOCropViewControllerLocalizable.strings */; };
+		81D295DEDF3D16F2B28A4D48F9431CBB /* FCButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E8592FD6732552528472C5ED0D3A99A2 /* FCButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C775699D3ECE3CDB60E60BB0864B7E /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 168DC4745430F15AF6073A32FA9D845A /* TOCropViewControllerLocalizable.strings */; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
+		843AE24C7CDDB0652E57DBC16C09BE88 /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 94F2FF24B8DC44CA18F63334AB01CCED /* TOCropViewControllerLocalizable.strings */; };
+		870836C09020195BCE183B863F76FDF1 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB414E2F8A8BC04DFE5E971BA4A580 /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		878535897588A267FCFBFA602C363019 /* FCFontEditViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2C9E889115ED482E7B5DFE5288172AB1 /* FCFontEditViewController.xib */; };
+		8C1FE69607A0535F1E1FDE86F909CA86 /* FCFontView.m in Sources */ = {isa = PBXBuildFile; fileRef = 457E9FE222BADBA16A74A46EACFBE75A /* FCFontView.m */; };
+		8EDF39C686F3D70C2ABEF5D295D62D6C /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E4EA15D5D384BDEB60559052977704 /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		907C1BC511E4857FA214F70E25961C83 /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = D0162B8A61A0C5B15A0ACE04C95E08E2 /* TOCropViewControllerLocalizable.strings */; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		92DD9C8ABA7199CB5045DFFF7EDCA42F /* FCImageEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FFAA8A2DB0B68DE6E5FB66CDCCE9D4 /* FCImageEditorViewController.m */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B93A6FF7ACFB45B8FB89A9989A89486 /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 058E60F43175AD3FFC7E619450B0EFAA /* TOCropViewControllerLocalizable.strings */; };
+		A2538DBE55C9196FC4135CCCC723BBCA /* FCEditTextViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 715AFE0C3334DFA69161477A613EA12F /* FCEditTextViewController.xib */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
+		ADE618521764A15312D8AE5D86C51445 /* FCImageEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 618F452445F375A19F2A0EF416B749A9 /* FCImageEditor-dummy.m */; };
+		AF82970064ED9FB263F2A9FA98134A9F /* FCColorSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF10107DAB95AA8EC65AB954F6752AF /* FCColorSlider.m */; };
+		B27417A93E74F20A002369376BA30728 /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9089204E523AEA6D6B1E73A492150F2C /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7794EC3FFF7005175FF5F902C68E3E0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D786361699C8AC3E678C0748680D94C /* ReplaceMe.m */; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BCE016AE1A3F1B0B4FEA8D2182B4B656 /* FCAlphaSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D705234C728E3E067D88F7D96A17EF3 /* FCAlphaSlider.m */; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0FA8CA19467F6044BB594152F629889 /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 475B692C2B3283F85F80F201FBFBBE48 /* TOCropViewControllerLocalizable.strings */; };
+		C355D0F94D2F8C4BF080DCADD219B564 /* FCColorSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9AADB256A3ED81E5AAE1C926AA7E32 /* FCColorSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C83778B20684126CDE9E37D3E9047D58 /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = F628BB1FB026B9A14D8671DB2258A505 /* TOCropViewControllerLocalizable.strings */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CD8EB590D0DBFAB01F5334527AD16922 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9ECDCF57E1D959F79AB04E51987B463 /* TOCropScrollView.m */; };
+		DAA809A8DD379B5BA29CA4492F1787DA /* FCImageEditorViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 08A8FC08CC92C01C311984C6B7CE5289 /* FCImageEditorViewController.xib */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		E8FD59A013CE4E50C655E668FA91C484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		DDF41B9A688FB9244244F9B1F1DE90BE /* TOCropViewController-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1C33368AFDD7FF016B3AE9F1B6BE9A /* TOCropViewController-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E29749893CE807498BB2444849D322CE /* FCFontStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C26CBDBF6F223B95E2EF1831EB584A /* FCFontStyleView.m */; };
+		E631EAF7928C9F380B379940FEDF50D2 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E815082E04831A376A34766F16DC9 /* TOCropToolbar.m */; };
+		E811F9BE3B845DB67F6A9F0DE835D7D6 /* FCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C1485239CDBAD5C9C6100655B1B818 /* FCButton.m */; };
+		E84668FF1191D5DE21DC6DE038F59C61 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = BB1AEC24C18B73566951F4E5E622EE54 /* Info.plist */; };
+		E9477C67AC28A3BC29A4ED8C69DE1ED1 /* FCEditTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F68B9A1ADA717AECC9E871275399A1 /* FCEditTextViewController.m */; };
+		E9DDE32D3C3AD55CD35DE54890C27C3C /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9370DB9B1976A61E08030E6C7DC0425 /* TOCropView.m */; };
 		EC4F5E2F3332883842B1EA94E6BF08E8 /* Pods-FCImageEditor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7761DC92BDEF2C552CB54EE19EA7F343 /* Pods-FCImageEditor_Tests-dummy.m */; };
+		EDFB28DE914510363E7B9EAD4B70A2F3 /* FCAlphaSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = C0662E826542E1A353A9B194F68B087C /* FCAlphaSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF0CE3937A7AA5B163CEB7E2106966C0 /* FCKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4100DCD46DDA5453B35A82D2E42754C /* FCKeyboardView.m */; };
+		F1559BA8905E2C6B64CFB7F6CF6F2BBD /* FCFontView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF843033D5EEEAF9D4604B38E2131252 /* FCFontView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4342D0DB9D21CED31C8ABB02400CA12 /* Pods-FCImageEditor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9DF4791C2087371A41EFE664BFA238 /* Pods-FCImageEditor_Example-dummy.m */; };
+		F790F718BD67157DDE66780FA12324EB /* FCTextToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3673392E37B2514C88B3D7844A9351B5 /* FCTextToolView.m */; };
+		FC4CE60EAD3A3EE3E7D1A1CFDE9F3ABA /* TOCropViewControllerLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = B0BF47024B8AC74C867DF9391CFBE98D /* TOCropViewControllerLocalizable.strings */; };
+		FE49E17484F59854E88E01FC8A3AD3DC /* UIImage+FCRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D6D220F5E9E29F664369450074FF4CB /* UIImage+FCRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,69 +117,134 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4C95CD89A5505CCE87804556A7DF6342;
+			remoteGlobalIDString = 8BD0F8C0AF53482D98C7E3E02D5320D1;
 			remoteInfo = FCImageEditor;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01121812E6797352ED4C13B4CAC40108 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = da.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		02818CD053A8EC893782BF29609946B8 /* FCImageEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCImageEditor-umbrella.h"; sourceTree = "<group>"; };
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		058E60F43175AD3FFC7E619450B0EFAA /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = en.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		08A8FC08CC92C01C311984C6B7CE5289 /* FCImageEditorViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = FCImageEditorViewController.xib; sourceTree = "<group>"; };
 		0925113464425D2B775130F6DF7C4D97 /* Pods-FCImageEditor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCImageEditor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		168DC4745430F15AF6073A32FA9D845A /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = ja.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		198AAE3A4C0CBBBE1DB05A6E7D29B968 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A7138CFD68109F29126668EE4FAE6C2 /* Pods-FCImageEditor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCImageEditor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C9DF4791C2087371A41EFE664BFA238 /* Pods-FCImageEditor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCImageEditor_Example-dummy.m"; sourceTree = "<group>"; };
-		1D786361699C8AC3E678C0748680D94C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		1CF10107DAB95AA8EC65AB954F6752AF /* FCColorSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCColorSlider.m; sourceTree = "<group>"; };
+		251407C842846AC02121404D92A8C4E2 /* FCImageEditorViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCImageEditorViewController.h; sourceTree = "<group>"; };
 		289ED53A35C5A58815A9D88E2002147C /* Pods_FCImageEditor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FCImageEditor_Example.framework; path = "Pods-FCImageEditor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9E889115ED482E7B5DFE5288172AB1 /* FCFontEditViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = FCFontEditViewController.xib; sourceTree = "<group>"; };
+		2D705234C728E3E067D88F7D96A17EF3 /* FCAlphaSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCAlphaSlider.m; sourceTree = "<group>"; };
+		2E2F293071728A936C8C23BE8DD6E9BC /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		3673392E37B2514C88B3D7844A9351B5 /* FCTextToolView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCTextToolView.m; sourceTree = "<group>"; };
+		38D97EF5DA6C586D7C419AF0C8979817 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		3CCDAA41C21C7DCD9ED31DB78002A107 /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		4341B29BC1F5AEAACB2D3699CA285C54 /* FCImageEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FCImageEditor.modulemap; sourceTree = "<group>"; };
 		434F052FA5B0707A245A9E4FF3F11FDE /* FCImageEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCImageEditor-prefix.pch"; sourceTree = "<group>"; };
 		444C5DB76C9776BA354D864C2DDF4FA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		457E9FE222BADBA16A74A46EACFBE75A /* FCFontView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCFontView.m; sourceTree = "<group>"; };
+		45C859F58CE5A741E70253C1816E4028 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = fr.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		45FCF689B58A8ADBD0FDCFA9CDE161B0 /* FCEditTextViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCEditTextViewController.h; sourceTree = "<group>"; };
+		475B692C2B3283F85F80F201FBFBBE48 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = it.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		49CDF92358EDCFDF4E6615791A766CE5 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = de.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		49E2D8BDC068526BCD3CAB4BF36E2E33 /* Pods-FCImageEditor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCImageEditor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4B1C33368AFDD7FF016B3AE9F1B6BE9A /* TOCropViewController-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOCropViewController-Bridging-Header.h"; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		5928CB4F3AB2F505E2EE3D0B3DDD5A9D /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
+		59E4EA15D5D384BDEB60559052977704 /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
 		5AB65CC9103DD94979306D3EBC969ED8 /* Pods-FCImageEditor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCImageEditor_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5AFCCC5DA158F5C69A7D6203CAF93142 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = "zh-Hant.lproj/TOCropViewControllerLocalizable.strings"; sourceTree = "<group>"; };
+		60D9C232AA6D0DFD6ECBC0FA1AFADF36 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCroppedImageAttributes.m; sourceTree = "<group>"; };
 		6119FFA0F1E5F36865B9A0A78B1FF9C8 /* Pods-FCImageEditor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCImageEditor_Example-resources.sh"; sourceTree = "<group>"; };
 		618F452445F375A19F2A0EF416B749A9 /* FCImageEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FCImageEditor-dummy.m"; sourceTree = "<group>"; };
+		64A3DEB190B8A7AF8C0AA6FA974697B5 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = pt.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		67DD7F40DC5C35CD5F6E6DDD979AC516 /* Pods-FCImageEditor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCImageEditor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		68729C3514AF87765AAB1714ADABAC4C /* FCKeyboardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCKeyboardView.h; sourceTree = "<group>"; };
 		6B3AEA5182FF76D8EBB6E4FC277CF3EC /* Pods-FCImageEditor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCImageEditor_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6BC74624637ABEFF2384108D874C6361 /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropOverlayView.m; sourceTree = "<group>"; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECEBBA8601950C36F02ECABD101013A /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = es.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		7087E9F467DFB1EE88B03D1ACAC9DB2E /* FCFontEditViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCFontEditViewController.h; sourceTree = "<group>"; };
+		715AFE0C3334DFA69161477A613EA12F /* FCEditTextViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = FCEditTextViewController.xib; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		7761DC92BDEF2C552CB54EE19EA7F343 /* Pods-FCImageEditor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCImageEditor_Tests-dummy.m"; sourceTree = "<group>"; };
+		7960B71A12E7F66DB5EE164CF957AEE0 /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropViewController.m; sourceTree = "<group>"; };
+		7D6D220F5E9E29F664369450074FF4CB /* UIImage+FCRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+FCRotate.h"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		84C46C3035CBC17C937459C74DBBE6E6 /* Pods-FCImageEditor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FCImageEditor_Tests-umbrella.h"; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		86DD76F8ED5AF7A587F8BFCA30D5473A /* Pods-FCImageEditor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FCImageEditor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88F68B9A1ADA717AECC9E871275399A1 /* FCEditTextViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCEditTextViewController.m; sourceTree = "<group>"; };
+		8C4D7FC06FD910226C49402F6CD579D6 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		8CFDD7AE3D26D80403DFA054E2552562 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = tr.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		8E67BAE5BEBAF69AFB36AB6C40640472 /* Pods-FCImageEditor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FCImageEditor_Example.modulemap"; sourceTree = "<group>"; };
 		8F0CB9D291BC315A4B3D112EB9B952F5 /* Pods-FCImageEditor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCImageEditor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9089204E523AEA6D6B1E73A492150F2C /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropViewController.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94F2FF24B8DC44CA18F63334AB01CCED /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = pl.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		95400E7BBEDCAB54B1F6FA3EB8089749 /* FCFontBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCFontBar.m; sourceTree = "<group>"; };
 		96467EEF384DCAE4EB22D469ED255F66 /* Pods-FCImageEditor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCImageEditor_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9BE335FE1A567F40076CE931A5A6035A /* Pods-FCImageEditor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FCImageEditor_Example-umbrella.h"; sourceTree = "<group>"; };
 		9C855CDEAFD6B4ECB0360FFCE7A3C3A7 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3B726C4335194E2F7B6A3B3FA226D5 /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropOverlayView.h; sourceTree = "<group>"; };
 		A205567BBE85236D22DB38BD615957DE /* Pods-FCImageEditor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FCImageEditor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A227B4942A3D25119BB701A3A5559938 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = Base.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A59E815082E04831A376A34766F16DC9 /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AE9AADB256A3ED81E5AAE1C926AA7E32 /* FCColorSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCColorSlider.h; sourceTree = "<group>"; };
+		B0BF47024B8AC74C867DF9391CFBE98D /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = ar.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		B2C1485239CDBAD5C9C6100655B1B818 /* FCButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCButton.m; sourceTree = "<group>"; };
+		B42921972A304B5CBCF5EE7FC9D79035 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = ru.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		B5E00D8ED1D826792D2DA9121047B98E /* FCFontEditViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCFontEditViewController.m; sourceTree = "<group>"; };
 		B7DACF1700461E5BE7BE93873F916D9D /* Pods_FCImageEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FCImageEditor_Tests.framework; path = "Pods-FCImageEditor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8FCFFDA4088C7FF7204349858E886F7 /* TOCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropView.h; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		B931DDCEB0575C3BE605FB68F0E7D75B /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		BB1AEC24C18B73566951F4E5E622EE54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0662E826542E1A353A9B194F68B087C /* FCAlphaSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCAlphaSlider.h; sourceTree = "<group>"; };
+		C6CD0097F8FDCF45918C46C75EA76A29 /* UIImage+FCRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FCRotate.m"; sourceTree = "<group>"; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C8C26CBDBF6F223B95E2EF1831EB584A /* FCFontStyleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCFontStyleView.m; sourceTree = "<group>"; };
+		C9D4869F1DBA9C63848FDBE21971558A /* FCTextToolView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCTextToolView.h; sourceTree = "<group>"; };
 		CB66A78F4BA1F45C2EAB7378A31C2C1F /* Pods-FCImageEditor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FCImageEditor_Tests.modulemap"; sourceTree = "<group>"; };
 		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		CE777C87DDED03A3CFE049806F2DE199 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = nl.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		CF843033D5EEEAF9D4604B38E2131252 /* FCFontView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCFontView.h; sourceTree = "<group>"; };
+		D0162B8A61A0C5B15A0ACE04C95E08E2 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = id.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		D27A76BEB34156514F2E646D18C17725 /* Pods-FCImageEditor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCImageEditor_Tests-resources.sh"; sourceTree = "<group>"; };
+		D8AB414E2F8A8BC04DFE5E971BA4A580 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		D9E6179D19CD48CFF08B9AB4FB7A671B /* FCFontStyleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCFontStyleView.h; sourceTree = "<group>"; };
+		D9ECDCF57E1D959F79AB04E51987B463 /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropScrollView.m; sourceTree = "<group>"; };
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		DD0DFAF866FD5CB1661EE5176B09D308 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF1D3A9F84F24266216832653E02E84F /* FCImageEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FCImageEditor.framework; path = FCImageEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		E8592FD6732552528472C5ED0D3A99A2 /* FCButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCButton.h; sourceTree = "<group>"; };
+		E9370DB9B1976A61E08030E6C7DC0425 /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropView.m; sourceTree = "<group>"; };
+		F1A2DD7A3DE8C94D370F2E84651A5A2B /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = "zh-Hans.lproj/TOCropViewControllerLocalizable.strings"; sourceTree = "<group>"; };
+		F4100DCD46DDA5453B35A82D2E42754C /* FCKeyboardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCKeyboardView.m; sourceTree = "<group>"; };
+		F4FFAA8A2DB0B68DE6E5FB66CDCCE9D4 /* FCImageEditorViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCImageEditorViewController.m; sourceTree = "<group>"; };
+		F628BB1FB026B9A14D8671DB2258A505 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = ko.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		F6B94D88FD5F3F417E0E728D1DEECBD0 /* FCImageEditor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCImageEditor.xcconfig; sourceTree = "<group>"; };
+		F7D66D7F11D2F7799B51EACE85A60781 /* FCFontBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCFontBar.h; sourceTree = "<group>"; };
+		F8EC6A3584295F99C24BFFE45B69276B /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = TOCropViewControllerLocalizable.strings; path = vi.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		FCDF977A2888649CE6009C296606ECE6 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +256,14 @@
 				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
 				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
 				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FDB4F17FEB804DAE7B3BA4598EB329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A3BBF596CF06EE49F509FFCB79C402 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,14 +280,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				482149F12215AFFD5A42A23ABD849A0B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98951CE6AF780C9964A5B8153A820D28 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8FD59A013CE4E50C655E668FA91C484 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,15 +308,6 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		1BA1BC77CC19607836AB17174AEA2DB2 /* FCImageEditor */ = {
-			isa = PBXGroup;
-			children = (
-				AF5204A3B7B9A21B2C9412F3C5599A12 /* Classes */,
-			);
-			name = FCImageEditor;
-			path = FCImageEditor;
-			sourceTree = "<group>";
-		};
 		1DED5040998558FD4E19136423AF8CA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +317,28 @@
 				B7DACF1700461E5BE7BE93873F916D9D /* Pods_FCImageEditor_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2127E5572C45ADA37499B0F50BF8175A /* FCFontKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C0662E826542E1A353A9B194F68B087C /* FCAlphaSlider.h */,
+				2D705234C728E3E067D88F7D96A17EF3 /* FCAlphaSlider.m */,
+				E8592FD6732552528472C5ED0D3A99A2 /* FCButton.h */,
+				B2C1485239CDBAD5C9C6100655B1B818 /* FCButton.m */,
+				AE9AADB256A3ED81E5AAE1C926AA7E32 /* FCColorSlider.h */,
+				1CF10107DAB95AA8EC65AB954F6752AF /* FCColorSlider.m */,
+				F7D66D7F11D2F7799B51EACE85A60781 /* FCFontBar.h */,
+				95400E7BBEDCAB54B1F6FA3EB8089749 /* FCFontBar.m */,
+				D9E6179D19CD48CFF08B9AB4FB7A671B /* FCFontStyleView.h */,
+				C8C26CBDBF6F223B95E2EF1831EB584A /* FCFontStyleView.m */,
+				CF843033D5EEEAF9D4604B38E2131252 /* FCFontView.h */,
+				457E9FE222BADBA16A74A46EACFBE75A /* FCFontView.m */,
+				68729C3514AF87765AAB1714ADABAC4C /* FCKeyboardView.h */,
+				F4100DCD46DDA5453B35A82D2E42754C /* FCKeyboardView.m */,
+			);
+			name = FCFontKeyBoard;
+			path = FCFontKeyBoard;
 			sourceTree = "<group>";
 		};
 		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
@@ -209,6 +352,24 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
+		24699D299F886F2E9FCAD44C29BEB477 /* FCFontEditViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45FCF689B58A8ADBD0FDCFA9CDE161B0 /* FCEditTextViewController.h */,
+				88F68B9A1ADA717AECC9E871275399A1 /* FCEditTextViewController.m */,
+				715AFE0C3334DFA69161477A613EA12F /* FCEditTextViewController.xib */,
+				7087E9F467DFB1EE88B03D1ACAC9DB2E /* FCFontEditViewController.h */,
+				B5E00D8ED1D826792D2DA9121047B98E /* FCFontEditViewController.m */,
+				2C9E889115ED482E7B5DFE5288172AB1 /* FCFontEditViewController.xib */,
+				C9D4869F1DBA9C63848FDBE21971558A /* FCTextToolView.h */,
+				3673392E37B2514C88B3D7844A9351B5 /* FCTextToolView.m */,
+				7D6D220F5E9E29F664369450074FF4CB /* UIImage+FCRotate.h */,
+				C6CD0097F8FDCF45918C46C75EA76A29 /* UIImage+FCRotate.m */,
+			);
+			name = FCFontEditViewController;
+			path = FCFontEditViewController;
+			sourceTree = "<group>";
+		};
 		358C16C6128F3018B1A2AE846249E5BA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,12 +379,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		3FD5725B26DF718DBC495E577F1C9877 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F3B726C4335194E2F7B6A3B3FA226D5 /* TOCropOverlayView.h */,
+				6BC74624637ABEFF2384108D874C6361 /* TOCropOverlayView.m */,
+				59E4EA15D5D384BDEB60559052977704 /* TOCropScrollView.h */,
+				D9ECDCF57E1D959F79AB04E51987B463 /* TOCropScrollView.m */,
+				3CCDAA41C21C7DCD9ED31DB78002A107 /* TOCropToolbar.h */,
+				A59E815082E04831A376A34766F16DC9 /* TOCropToolbar.m */,
+				B8FCFFDA4088C7FF7204349858E886F7 /* TOCropView.h */,
+				E9370DB9B1976A61E08030E6C7DC0425 /* TOCropView.m */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4675B5AA294F70A613F5FD1164F8D7D3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				D4F142EA72AEFD780C8FADA746AEB65A /* FCImageEditor */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		701785EC0E81EB3F1C984E818B6BA7DB /* FCImageEditor */ = {
+			isa = PBXGroup;
+			children = (
+				251407C842846AC02121404D92A8C4E2 /* FCImageEditorViewController.h */,
+				F4FFAA8A2DB0B68DE6E5FB66CDCCE9D4 /* FCImageEditorViewController.m */,
+				08A8FC08CC92C01C311984C6B7CE5289 /* FCImageEditorViewController.xib */,
+			);
+			name = FCImageEditor;
+			path = FCImageEditor;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -236,6 +424,18 @@
 				1DED5040998558FD4E19136423AF8CA3 /* Products */,
 				358C16C6128F3018B1A2AE846249E5BA /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8569322A9D2A87DBC7320F05ECE6BC12 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24699D299F886F2E9FCAD44C29BEB477 /* FCFontEditViewController */,
+				2127E5572C45ADA37499B0F50BF8175A /* FCFontKeyBoard */,
+				701785EC0E81EB3F1C984E818B6BA7DB /* FCImageEditor */,
+				F28B0C30F0320FEE4F2C3C27FE81A6B5 /* TOCropViewController */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		85B19801B416AB0F12D0FC635F8E9F92 /* Pods-FCImageEditor_Tests */ = {
@@ -293,23 +493,54 @@
 			path = "Target Support Files/Pods-FCImageEditor_Example";
 			sourceTree = "<group>";
 		};
-		AF5204A3B7B9A21B2C9412F3C5599A12 /* Classes */ = {
+		A9B66B5CF06CAEE5463A3AACE719B767 /* FCImageEditor */ = {
 			isa = PBXGroup;
 			children = (
-				1D786361699C8AC3E678C0748680D94C /* ReplaceMe.m */,
+				8569322A9D2A87DBC7320F05ECE6BC12 /* Classes */,
 			);
-			name = Classes;
-			path = Classes;
+			name = FCImageEditor;
+			path = FCImageEditor;
+			sourceTree = "<group>";
+		};
+		C369CF6300EC45DA10DF8904C152AC94 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCDF977A2888649CE6009C296606ECE6 /* TOActivityCroppedImageProvider.h */,
+				B931DDCEB0575C3BE605FB68F0E7D75B /* TOActivityCroppedImageProvider.m */,
+				5928CB4F3AB2F505E2EE3D0B3DDD5A9D /* TOCroppedImageAttributes.h */,
+				60D9C232AA6D0DFD6ECBC0FA1AFADF36 /* TOCroppedImageAttributes.m */,
+				8C4D7FC06FD910226C49402F6CD579D6 /* TOCropViewControllerTransitioning.h */,
+				38D97EF5DA6C586D7C419AF0C8979817 /* TOCropViewControllerTransitioning.m */,
+				D8AB414E2F8A8BC04DFE5E971BA4A580 /* UIImage+CropRotate.h */,
+				2E2F293071728A936C8C23BE8DD6E9BC /* UIImage+CropRotate.m */,
+			);
+			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		D4F142EA72AEFD780C8FADA746AEB65A /* FCImageEditor */ = {
 			isa = PBXGroup;
 			children = (
-				1BA1BC77CC19607836AB17174AEA2DB2 /* FCImageEditor */,
+				A9B66B5CF06CAEE5463A3AACE719B767 /* FCImageEditor */,
 				F7AC3820BB24629D08D7380CB6750172 /* Support Files */,
 			);
 			name = FCImageEditor;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		F28B0C30F0320FEE4F2C3C27FE81A6B5 /* TOCropViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB1AEC24C18B73566951F4E5E622EE54 /* Info.plist */,
+				9089204E523AEA6D6B1E73A492150F2C /* TOCropViewController.h */,
+				7960B71A12E7F66DB5EE164CF957AEE0 /* TOCropViewController.m */,
+				4B1C33368AFDD7FF016B3AE9F1B6BE9A /* TOCropViewController-Bridging-Header.h */,
+				46133EAED6F600968541741F0841A74A /* TOCropViewControllerLocalizable.strings */,
+				C369CF6300EC45DA10DF8904C152AC94 /* Models */,
+				3FD5725B26DF718DBC495E577F1C9877 /* Views */,
+			);
+			name = TOCropViewController;
+			path = TOCropViewController;
 			sourceTree = "<group>";
 		};
 		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
@@ -366,19 +597,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		658DDFFABB082D8FC02344C4E3CA78B7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E26EEE13F641F90FA3C4189C97683DC /* FCImageEditor-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6CFD75CA5518ED97A4FC976F4A61391F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1A0118D59A10D45B0B280FFC2CC0ED51 /* Pods-FCImageEditor_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEC19A96C6CD3034E03C1606EBD7211 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFB28DE914510363E7B9EAD4B70A2F3 /* FCAlphaSlider.h in Headers */,
+				81D295DEDF3D16F2B28A4D48F9431CBB /* FCButton.h in Headers */,
+				C355D0F94D2F8C4BF080DCADD219B564 /* FCColorSlider.h in Headers */,
+				64B1A27BCFA5162BBBEF33D8D8EC232A /* FCEditTextViewController.h in Headers */,
+				4A1BA19BFD518D8B7A4581762442A8AB /* FCFontBar.h in Headers */,
+				227DD10299E0EA5A96DF4F7DEDAB54E2 /* FCFontEditViewController.h in Headers */,
+				384B08F2D1F7664DC84F665D33DA7AE4 /* FCFontStyleView.h in Headers */,
+				F1559BA8905E2C6B64CFB7F6CF6F2BBD /* FCFontView.h in Headers */,
+				0DB1BD60D82DB0CE34A689A13E2585A4 /* FCImageEditor-umbrella.h in Headers */,
+				7AC8CF701E4A9687BAEDCF7AED711159 /* FCImageEditorViewController.h in Headers */,
+				004063B36405E9D109404E256E58144D /* FCKeyboardView.h in Headers */,
+				1F65F3673DE97802F7F27FDED6337D8F /* FCTextToolView.h in Headers */,
+				6BC86761E9E376DE85C59E2757D74974 /* TOActivityCroppedImageProvider.h in Headers */,
+				1C695FE7528D6D74242F3AEA9D47D3D1 /* TOCropOverlayView.h in Headers */,
+				6F6AADB90AC803FA9F87758C486CD0AD /* TOCroppedImageAttributes.h in Headers */,
+				8EDF39C686F3D70C2ABEF5D295D62D6C /* TOCropScrollView.h in Headers */,
+				69AE270484BC9B089C69D8B59D1DD849 /* TOCropToolbar.h in Headers */,
+				26BE73713BDD8E0AD93CD214B9EEFC12 /* TOCropView.h in Headers */,
+				DDF41B9A688FB9244244F9B1F1DE90BE /* TOCropViewController-Bridging-Header.h in Headers */,
+				B27417A93E74F20A002369376BA30728 /* TOCropViewController.h in Headers */,
+				754E4DACDD258994811573B477043F7D /* TOCropViewControllerTransitioning.h in Headers */,
+				870836C09020195BCE183B863F76FDF1 /* UIImage+CropRotate.h in Headers */,
+				FE49E17484F59854E88E01FC8A3AD3DC /* UIImage+FCRotate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,13 +688,13 @@
 			productReference = 9C855CDEAFD6B4ECB0360FFCE7A3C3A7 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4C95CD89A5505CCE87804556A7DF6342 /* FCImageEditor */ = {
+		8BD0F8C0AF53482D98C7E3E02D5320D1 /* FCImageEditor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20802428D3E940EC20665A286C4C0D33 /* Build configuration list for PBXNativeTarget "FCImageEditor" */;
+			buildConfigurationList = C1DC3C0F114F2A747D38D8CE12202264 /* Build configuration list for PBXNativeTarget "FCImageEditor" */;
 			buildPhases = (
-				35547E50037FC4D8CD2B1D6B4E2EE506 /* Sources */,
-				98951CE6AF780C9964A5B8153A820D28 /* Frameworks */,
-				658DDFFABB082D8FC02344C4E3CA78B7 /* Headers */,
+				CDDC76B40D18513FCF144D4551FF5882 /* Sources */,
+				38FDB4F17FEB804DAE7B3BA4598EB329 /* Frameworks */,
+				7FEC19A96C6CD3034E03C1606EBD7211 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -492,7 +745,7 @@
 			projectRoot = "";
 			targets = (
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				4C95CD89A5505CCE87804556A7DF6342 /* FCImageEditor */,
+				8BD0F8C0AF53482D98C7E3E02D5320D1 /* FCImageEditor */,
 				C989546688B6410038C0761763F1D12D /* Pods-FCImageEditor_Example */,
 				01DDC803FB21C41DE200E10240B5A53B /* Pods-FCImageEditor_Tests */,
 			);
@@ -508,20 +761,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35547E50037FC4D8CD2B1D6B4E2EE506 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				237FA4E481C7316A0E4646CE8E06F4D8 /* FCImageEditor-dummy.m in Sources */,
-				B7794EC3FFF7005175FF5F902C68E3E0 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7EE6C4B2B23405E816C18A087CC184B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F4342D0DB9D21CED31C8ABB02400CA12 /* Pods-FCImageEditor_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDC76B40D18513FCF144D4551FF5882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE016AE1A3F1B0B4FEA8D2182B4B656 /* FCAlphaSlider.m in Sources */,
+				E811F9BE3B845DB67F6A9F0DE835D7D6 /* FCButton.m in Sources */,
+				AF82970064ED9FB263F2A9FA98134A9F /* FCColorSlider.m in Sources */,
+				E9477C67AC28A3BC29A4ED8C69DE1ED1 /* FCEditTextViewController.m in Sources */,
+				A2538DBE55C9196FC4135CCCC723BBCA /* FCEditTextViewController.xib in Sources */,
+				68DCFC0C7D3E88D2476DF52265084A60 /* FCFontBar.m in Sources */,
+				2705D455054789AA5CF2CD9A3B13206C /* FCFontEditViewController.m in Sources */,
+				878535897588A267FCFBFA602C363019 /* FCFontEditViewController.xib in Sources */,
+				E29749893CE807498BB2444849D322CE /* FCFontStyleView.m in Sources */,
+				8C1FE69607A0535F1E1FDE86F909CA86 /* FCFontView.m in Sources */,
+				ADE618521764A15312D8AE5D86C51445 /* FCImageEditor-dummy.m in Sources */,
+				92DD9C8ABA7199CB5045DFFF7EDCA42F /* FCImageEditorViewController.m in Sources */,
+				DAA809A8DD379B5BA29CA4492F1787DA /* FCImageEditorViewController.xib in Sources */,
+				EF0CE3937A7AA5B163CEB7E2106966C0 /* FCKeyboardView.m in Sources */,
+				F790F718BD67157DDE66780FA12324EB /* FCTextToolView.m in Sources */,
+				E84668FF1191D5DE21DC6DE038F59C61 /* Info.plist in Sources */,
+				4304B0384584A27DC5EF1725EAC44729 /* TOActivityCroppedImageProvider.m in Sources */,
+				2651B363D30B974C0641EFE6929FE656 /* TOCropOverlayView.m in Sources */,
+				10D58A860C8332D462E0708628B55567 /* TOCroppedImageAttributes.m in Sources */,
+				CD8EB590D0DBFAB01F5334527AD16922 /* TOCropScrollView.m in Sources */,
+				E631EAF7928C9F380B379940FEDF50D2 /* TOCropToolbar.m in Sources */,
+				E9DDE32D3C3AD55CD35DE54890C27C3C /* TOCropView.m in Sources */,
+				563F1DF80C5BB0C18A85916809D23FA4 /* TOCropViewController.m in Sources */,
+				9B93A6FF7ACFB45B8FB89A9989A89486 /* TOCropViewControllerLocalizable.strings in Sources */,
+				FC4CE60EAD3A3EE3E7D1A1CFDE9F3ABA /* TOCropViewControllerLocalizable.strings in Sources */,
+				72770C3BC3D449A77AA906A459B022DA /* TOCropViewControllerLocalizable.strings in Sources */,
+				15B98D53518F971663F3FDB34E456193 /* TOCropViewControllerLocalizable.strings in Sources */,
+				69ADBE393C86736B3504E0B4230CE978 /* TOCropViewControllerLocalizable.strings in Sources */,
+				4358B8D82DEAF43BDB38E8D0B5981F5E /* TOCropViewControllerLocalizable.strings in Sources */,
+				7ED91E259305BC62DF7D42531FE2B383 /* TOCropViewControllerLocalizable.strings in Sources */,
+				5D1ADF7BE5648B5B49839F497374D4B3 /* TOCropViewControllerLocalizable.strings in Sources */,
+				907C1BC511E4857FA214F70E25961C83 /* TOCropViewControllerLocalizable.strings in Sources */,
+				23C54DF6D20B11C066FCB037BA83C72F /* TOCropViewControllerLocalizable.strings in Sources */,
+				C0FA8CA19467F6044BB594152F629889 /* TOCropViewControllerLocalizable.strings in Sources */,
+				19F417C200DB77B1A34D67B3AA161355 /* TOCropViewControllerLocalizable.strings in Sources */,
+				C83778B20684126CDE9E37D3E9047D58 /* TOCropViewControllerLocalizable.strings in Sources */,
+				311867E595665BDFEF1783996AD2FC3C /* TOCropViewControllerLocalizable.strings in Sources */,
+				843AE24C7CDDB0652E57DBC16C09BE88 /* TOCropViewControllerLocalizable.strings in Sources */,
+				2F23778BE51C2FEED7074C5E4B73570C /* TOCropViewControllerLocalizable.strings in Sources */,
+				6825F1165DA089738768C1038CDD2A43 /* TOCropViewControllerLocalizable.strings in Sources */,
+				0D3ABF55A652DC563CE5EB9A72BF3C42 /* TOCropViewControllerLocalizable.strings in Sources */,
+				83C775699D3ECE3CDB60E60BB0864B7E /* TOCropViewControllerLocalizable.strings in Sources */,
+				11D8EF5F18A3CDDF129C744B306184E7 /* TOCropViewControllerTransitioning.m in Sources */,
+				5AB4F618DC7695D3883647F10571A90A /* UIImage+CropRotate.m in Sources */,
+				144E00AEC81D593845B54FB3A2310963 /* UIImage+FCRotate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,10 +849,40 @@
 		CA3BB1D420FA41D05B9F57982C926A55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FCImageEditor;
-			target = 4C95CD89A5505CCE87804556A7DF6342 /* FCImageEditor */;
+			target = 8BD0F8C0AF53482D98C7E3E02D5320D1 /* FCImageEditor */;
 			targetProxy = 5FBBB9331F92862C6617544D7FF3B598 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46133EAED6F600968541741F0841A74A /* TOCropViewControllerLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0BF47024B8AC74C867DF9391CFBE98D /* TOCropViewControllerLocalizable.strings */,
+				A227B4942A3D25119BB701A3A5559938 /* TOCropViewControllerLocalizable.strings */,
+				01121812E6797352ED4C13B4CAC40108 /* TOCropViewControllerLocalizable.strings */,
+				49CDF92358EDCFDF4E6615791A766CE5 /* TOCropViewControllerLocalizable.strings */,
+				058E60F43175AD3FFC7E619450B0EFAA /* TOCropViewControllerLocalizable.strings */,
+				6ECEBBA8601950C36F02ECABD101013A /* TOCropViewControllerLocalizable.strings */,
+				45C859F58CE5A741E70253C1816E4028 /* TOCropViewControllerLocalizable.strings */,
+				D0162B8A61A0C5B15A0ACE04C95E08E2 /* TOCropViewControllerLocalizable.strings */,
+				475B692C2B3283F85F80F201FBFBBE48 /* TOCropViewControllerLocalizable.strings */,
+				168DC4745430F15AF6073A32FA9D845A /* TOCropViewControllerLocalizable.strings */,
+				F628BB1FB026B9A14D8671DB2258A505 /* TOCropViewControllerLocalizable.strings */,
+				CE777C87DDED03A3CFE049806F2DE199 /* TOCropViewControllerLocalizable.strings */,
+				94F2FF24B8DC44CA18F63334AB01CCED /* TOCropViewControllerLocalizable.strings */,
+				64A3DEB190B8A7AF8C0AA6FA974697B5 /* TOCropViewControllerLocalizable.strings */,
+				B42921972A304B5CBCF5EE7FC9D79035 /* TOCropViewControllerLocalizable.strings */,
+				8CFDD7AE3D26D80403DFA054E2552562 /* TOCropViewControllerLocalizable.strings */,
+				F8EC6A3584295F99C24BFFE45B69276B /* TOCropViewControllerLocalizable.strings */,
+				F1A2DD7A3DE8C94D370F2E84651A5A2B /* TOCropViewControllerLocalizable.strings */,
+				5AFCCC5DA158F5C69A7D6203CAF93142 /* TOCropViewControllerLocalizable.strings */,
+			);
+			name = TOCropViewControllerLocalizable.strings;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		02810785CF6F3097143335F55A396636 /* Debug */ = {
@@ -720,6 +1046,38 @@
 			};
 			name = Release;
 		};
+		41BA05927CCA4A00987036801DCB424A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B94D88FD5F3F417E0E728D1DEECBD0 /* FCImageEditor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FCImageEditor/FCImageEditor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCImageEditor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FCImageEditor/FCImageEditor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FCImageEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		63F790CCA7932C3522B66E61FDA152B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0925113464425D2B775130F6DF7C4D97 /* Pods-FCImageEditor_Example.debug.xcconfig */;
@@ -835,7 +1193,7 @@
 			};
 			name = Debug;
 		};
-		DB83906FACA1D6E8E7C1F83D2EEE5017 /* Debug */ = {
+		C8B9A8D3F42A1A89DAF7F4D0139BA312 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6B94D88FD5F3F417E0E728D1DEECBD0 /* FCImageEditor.xcconfig */;
 			buildSettings = {
@@ -844,7 +1202,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -857,7 +1215,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FCImageEditor/FCImageEditor.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = FCImageEditor;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -865,7 +1223,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		F6DBA53A4511720174B84279A5CEB561 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -901,50 +1259,9 @@
 			};
 			name = Release;
 		};
-		F8F0A8D1864FDFC9347648B2163F2404 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6B94D88FD5F3F417E0E728D1DEECBD0 /* FCImageEditor.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FCImageEditor/FCImageEditor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FCImageEditor/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FCImageEditor/FCImageEditor.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FCImageEditor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20802428D3E940EC20665A286C4C0D33 /* Build configuration list for PBXNativeTarget "FCImageEditor" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DB83906FACA1D6E8E7C1F83D2EEE5017 /* Debug */,
-				F8F0A8D1864FDFC9347648B2163F2404 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -968,6 +1285,15 @@
 			buildConfigurations = (
 				02810785CF6F3097143335F55A396636 /* Debug */,
 				3BFD6EAEDB1239126BB85FC668434E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1DC3C0F114F2A747D38D8CE12202264 /* Build configuration list for PBXNativeTarget "FCImageEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BA05927CCA4A00987036801DCB424A /* Debug */,
+				C8B9A8D3F42A1A89DAF7F4D0139BA312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

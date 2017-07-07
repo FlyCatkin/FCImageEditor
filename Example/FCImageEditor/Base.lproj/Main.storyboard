@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,14 +19,44 @@
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GqG-cr-wud">
+                                <rect key="frame" x="137.5" y="59" width="100" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6l0-vR-2eo"/>
+                                    <constraint firstAttribute="width" constant="100" id="p4Z-vG-I25"/>
+                                </constraints>
+                                <state key="normal" title="点击编辑"/>
+                                <connections>
+                                    <action selector="click:" destination="whP-gf-Uak" eventType="touchUpInside" id="Yzz-sZ-L3x"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test_image" translatesAutoresizingMaskIntoConstraints="NO" id="FJD-e0-PPu">
+                                <rect key="frame" x="56" y="139" width="263" height="488"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FJD-e0-PPu" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="40" id="BWn-rx-q6k"/>
+                            <constraint firstItem="GqG-cr-wud" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="39" id="G7m-B5-aKs"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="FJD-e0-PPu" secondAttribute="bottom" constant="40" id="VqL-iE-c0v"/>
+                            <constraint firstItem="FJD-e0-PPu" firstAttribute="top" secondItem="GqG-cr-wud" secondAttribute="bottom" constant="40" id="Z0n-eq-uAm"/>
+                            <constraint firstItem="GqG-cr-wud" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="Zea-Pb-kzW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FJD-e0-PPu" secondAttribute="trailing" constant="40" id="hqT-Na-3PJ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="FJD-e0-PPu" id="EY2-tW-4CY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="305" y="433"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="test_image" width="320" height="568"/>
+    </resources>
 </document>
