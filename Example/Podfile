@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FCImageEditor_Example' do
+  pod 'FCImageEditor', :path => '../'
+
+  target 'FCImageEditor_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
